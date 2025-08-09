@@ -8,11 +8,11 @@ import {
   
   Reports,
   Services,
-  ProfileEdit,
   ResetPassword,
 } from "../pages/admin";
 import Projects from "../pages/admin/Projects";
 import Profile from "../pages/admin/Profile";
+import ProfileEditpage from "../pages/admin/ProfileEdit";
 
 
 
@@ -28,7 +28,7 @@ const AdminRoutes = () => (
         <Route path="projects" element={<Projects/>} />
         <Route path="reports" element={<Reports />} />
         <Route path="services" element={<Services />} />
-         <Route path="profile/edit" element={<ProfileEdit />} />
+         <Route path="profile/edit" element={<ProfileEditpage/>} />
          <Route path="profile/reset-password" element={<ResetPassword />} />
          <Route path="profile" element={<Profile />} />
       </Route>
